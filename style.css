@@ -29,6 +29,7 @@
 
 ul {
       display: inline;
+      text-align: center;
 }
 
 .cake{
@@ -48,7 +49,7 @@ span {
 }
 
 button{
-      margin-left: 80px;
+      margin-left: 5px;
       background-color: rgba(215, 254, 255, 0.762);
 }
 
