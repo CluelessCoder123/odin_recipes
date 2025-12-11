@@ -23,7 +23,7 @@
       font-family: 'Comic Sans MS',sans-serif,'Times New Roman';
       font-size: 30px;
       margin: 40px;
-      background-color: aqua;
+      background-color: rgb(248, 226, 100);
       padding: 5px;
 }
 
@@ -49,5 +49,31 @@ span {
 
 button{
       margin-left: 80px;
+      background-color: rgba(215, 254, 255, 0.762);
+}
+
+.container{
+      margin : 40px 300px 40px;
+      border : 3px, solid, black;
+      padding : 40px;
+      text-align: center;
+
+}
+
+.Ing{
+      text-align:left ;
+      margin-left: 150px;
+}
+
+.list{
+      margin-left: 190px;
+}
+
+ol{
+      text-align: left;
+}
+
+.homepage{
+      margin-left: 0px;
 }
 
