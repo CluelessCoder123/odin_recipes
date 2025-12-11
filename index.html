@@ -3,17 +3,40 @@
       <head>
             <meta charset ="UTF-8">
             <title>Odin recipes</title>
+            <link rel="stylesheet" href="style.css">
       </head>
 
       <body>
-            <h1>Odin Recipes</h1>
-            <p>Check our favourite recipes</p>
+            <!--Large image-->
+            
+            <div class="welcome-image">
+                  <h1 class="heading">Odin Recipes</h1>
+                  <img src="https://freerangestock.com/sample/104706/plates-of-food-on-a-table.jpg" alt="Large front image of a dish" width="1600px" height="700px">
+                  <p class="description"><em>Check our favorite recipes</em></p>
+
+            </div>
+
             
             <ul>
-                  <li><a href ="recipes/chocolate-cake.html">Chocolate Cake</a></li>
-                  <li><a href="recipes/spaghetti.html">Spaghetti</a></li>
-                  <li><a href ="recipes/fried-rice.html">Fried Rice</a></li>
+                  <li class="cake">
+                        <span>Chocolate Cake<span>
+                        <div><img src="https://images.pexels.com/photos/19940993/pexels-photo-19940993/free-photo-of-slices-of-chocolate-cakes.png" alt="2 slices of chocolate cake on a 2 plates" width="250px"></div>
+                        <button><a href ="recipes/chocolate-cake.html">Get Recipe</a></button>
+                  </li>
+
+                  <li class="spaghetti">
+                        <span>Spaghetti</span>
+                        <div><img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2lzMTE0MzItaW1hZ2Uta3d2d3ZoM3MuanBn.jpg" alt="image of a spaghetti in a plate" width="250px"></div>
+                        <button><a href="recipes/spaghetti.html">Get Recipe</a></button>
+                  </li>
+
+                  <li class="fried-rice">
+                        <span>Fried Rice</span>
+                        <div><img src="https://cdn12.picryl.com/photo/2016/12/31/fried-rice-rice-thai-food-food-drink-693d85-1024.jpg " alt="Image of fried rice decorated in a plate" width="250px"></div>
+                        <button><a href="recipes/fried-rice.html">Get Recipe</a></button>
+                  </li>
             </ul>
+            
 
       </body>
 </html>

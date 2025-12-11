@@ -1,0 +1,53 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+}
+
+.welcome-image{
+      text-align: center;
+      margin: 0px;
+      
+}
+
+.heading{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border : 3px solid blue;
+      margin-left: 200px;
+      margin-right: 200px;
+      padding : 10px;
+
+}
+
+.description{
+      font-family: 'Comic Sans MS',sans-serif,'Times New Roman';
+      font-size: 30px;
+      margin: 40px;
+      background-color: aqua;
+      padding: 5px;
+}
+
+ul {
+      display: inline;
+}
+
+.cake{
+      margin : 40px;
+}
+
+.spaghetti{
+      margin: 40px;
+}
+
+.fried-rice{
+      margin: 40px;
+}
+
+span {
+      font-size: 20px;
+}
+
+button{
+      margin-left: 80px;
+}
+
